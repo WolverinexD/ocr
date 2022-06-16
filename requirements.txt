@@ -1,7 +1,6 @@
 numpy
 matplotlib
-
-git+https://github.com/pyrogram/pyrogram.git
+pyrogram
 easyocr
 Pillow
 pytesseract
