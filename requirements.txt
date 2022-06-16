@@ -1,7 +1,7 @@
 numpy
 matplotlib
 cv2
-pyrogram
+git+https://github.com/pyrogram/pyrogram.git
 easyocr
 PIL 
 pytesseract
