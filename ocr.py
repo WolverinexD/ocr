@@ -38,6 +38,6 @@ async def mainwork(client: Client, message: Message):
     name_format = f"StarkBots_{user_id}_{message_id}"
     image = await msg.download(file_name=f"{name_format}.jpg")
     text = pytesseract.image_to_string(Image.open(image))
-    await app.send_message(chat_id, text)
+    await client.send_message(chat_id, text)
     
     
