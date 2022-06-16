@@ -1,0 +1,7 @@
+numpy
+matplotlib
+cv2
+pyrogram
+easyocr
+PIL 
+pytesseract
